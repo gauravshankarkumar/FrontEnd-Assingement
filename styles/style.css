@@ -13,30 +13,26 @@ nav {
   margin-top: auto;
   margin-left: auto;
   margin-right: auto;
+  /* position: relative; */
 }
-/* aside button a {
-  color: black;
-} */
-/* .button {
-  color: brown;
-} */
+
 .cart {
   /* background-color: black; */
   color: red;
   text-decoration: none;
 }
-button {
+.button {
   font-size: 35px;
   background-color: black;
   width: 100%;
   padding: 10px;
   text-decoration: none;
 }
-button:hover {
+.button:hover {
   background-color: gold;
   text-decoration: underline double;
 }
-button:active {
+.button:active {
   background-color: greenyellow;
   text-decoration: underline dotted black;
 }
@@ -53,4 +49,38 @@ li {
 .img {
   width: 200px;
   height: auto;
+}
+div {
+  background-color: blue;
+  padding: 2px 10px;
+  margin: 10px;
+  display: inline;
+}
+.black {
+  background-color: black;
+}
+.blue {
+  background-color: blue;
+}
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.lite-green {
+  background-color: lightgreen;
+}
+.brown {
+  background-color: brown;
+}
+.sale {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  font-family: monospace;
+  background-color: red;
+  padding: 5px 20px;
+  top: 0;
+  left: 0;
 }
