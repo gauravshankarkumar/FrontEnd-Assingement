@@ -10,10 +10,10 @@ nav {
   border: 5px solid black;
   font-family: serif;
   width: 800px;
-  margin-top: auto;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  /* position: relative; */
+  position: relative;
 }
 
 .cart {
@@ -74,6 +74,11 @@ div {
 .brown {
   background-color: brown;
 }
+
+/* /body {
+  position: relative;
+} */
+
 .sale {
   position: absolute;
   color: white;
@@ -81,6 +86,6 @@ div {
   font-family: monospace;
   background-color: red;
   padding: 5px 20px;
-  top: 0;
-  left: 0;
+  bottom: 98%;
+  right: 93%;
 }
